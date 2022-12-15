@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <section
+      class="w-full h-screen flex items-center justify-center bg-sky-300"
+    >
+      <div class="w-4/5">
+        <div class="w-full h-24 flex flex-row justify-around items-center mb-8">
+          <input
+            class="w-24 lg:w-64 h-20 md:w-56 sm:w-40 font-medium rounded-2xl text-5xl text-center outline-none"
+            id="number_one"
+            placeholder="5"
+            type="text"
+          />
+          <input
+            class="w-20 h-20 font-medium rounded-2xl text-5xl text-center outline-none"
+            id="expression"
+            placeholder="*"
+            type="text"
+          />
+          <input
+            class="w-24 lg:w-64 h-20 md:w-56 sm:w-40 font-medium rounded-2xl text-5xl text-center outline-none"
+            id="number_two"
+            placeholder="5"
+            type="text"
+          />
+          <h1 class="text-6xl font-medium text-center">=</h1>
+          <h1 id="result" class="text-6xl font-medium text-center">25</h1>
+        </div>
+        <div
+          id="result-btn"
+          class="w-full h-24 flex items-center justify-center cursor-pointer rounded-2xl bg-lime-300"
+        >
+          <h1 class="text-black text-4xl">Result</h1>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

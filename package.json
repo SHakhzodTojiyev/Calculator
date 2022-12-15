@@ -1,0 +1,19 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "javascript project with tcss",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/assets/style.css  --watch"
+  },
+  "keywords": [
+    "javascript",
+    "tailwindcss",
+    "calc"
+  ],
+  "author": "shakhzodtojiyev",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
