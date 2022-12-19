@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
   // document.querySelector("body").innerText = "Loading..."
 
   // HTML DOM Elements
-  let resultBtn = document.getElementById("result-btn");
+  const resultBtn = document.getElementById("result-btn");
   // Start JS coding
   resultBtn.addEventListener("click", () => {
     // HTML DOM Elements
@@ -16,10 +16,15 @@ window.addEventListener("load", () => {
     // console.log(typeof(numberOne)); // String
     // console.log(typeof(numberTwo)); // String
 
+    let numberOneIsEmpity = numberOne.trim().length === 0;
+    let NumberTwoIsNumber = isNaN(numberOne) && isNaN(numberTwo);
+
+    if(numberOneIsEmpity || NumberTwoIsNumber){
+      alert("Son yo'q!")
+    }
+
     numberOne = parseFloat(numberOne);
     numberTwo = parseFloat(numberTwo);
-
-    console.log(numberOne);
 
     // console.log(typeof(numberOne)); // Number
     // console.log(typeof(numberTwo)); // Number
