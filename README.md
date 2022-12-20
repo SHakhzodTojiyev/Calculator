@@ -22,7 +22,6 @@ ___________________
 - [Git version control](https://git-scm.com)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Google Chrome Browser](https://www.google.com/chrome)
-- [Create React App](https://create-react-app.dev)
 
 ### Deployment environments
 - [github.com](https://github.com)
