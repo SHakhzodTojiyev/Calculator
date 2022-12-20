@@ -5,7 +5,7 @@ Simple calculator project using HTML, Tailwind CSS and JavaScript
 
 ### Demo project: [calc-demo.netlify.app](https://calc-demo.netlify.app)
 
-### Figma Design resource: [figma.com](https://www.figma.com/file/YZoVddu8D2Pe1yUUhLN8BY/Calc?t=7uswNbwD6UiUWNox-1)
+### Figma Design resource: [figma.com](https://www.figma.com/file/YZoVddu8D2Pe1yUUhLN8BY/Calc?node-id=0%3A1&t=RwBJkv1oT2EQ3xc7-0)
 ___________________
 # Used technologies
 
