@@ -16,13 +16,6 @@ window.addEventListener("load", () => {
     // console.log(typeof(numberOne)); // String
     // console.log(typeof(numberTwo)); // String
 
-    let numberOneIsEmpity = numberOne.trim().length === 0;
-    let NumberTwoIsNumber = isNaN(numberOne) && isNaN(numberTwo);
-
-    if(numberOneIsEmpity || NumberTwoIsNumber){
-      alert("Son yo'q!")
-    }
-
     numberOne = parseFloat(numberOne);
     numberTwo = parseFloat(numberTwo);
 
