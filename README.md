@@ -13,14 +13,9 @@ ___________________
 - [HTML](https://www.w3schools.com/html)
 - [CSS](https://www.w3schools.com/css)
 - [JavaScript](https://www.javascripttutorial.net)
-- [TypeScript](https://www.typescriptlang.org)
 
 ### Frameworks
 - [Tailwind CSS](https://tailwindcss.com)
-
-### Libraries
-- [React](https://reactjs.org)
-- [React Icons](https://react-icons.github.io/react-icons)
 
 ### Developer tools and environments
 - [Manjaro OS](https://manjaro.org)
